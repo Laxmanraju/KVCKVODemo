@@ -13,6 +13,7 @@
 		0B5138BB1F1539EF00064D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5138B91F1539EF00064D7D /* Main.storyboard */; };
 		0B5138BD1F1539EF00064D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5138BC1F1539EF00064D7D /* Assets.xcassets */; };
 		0B5138C01F1539EF00064D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5138BE1F1539EF00064D7D /* LaunchScreen.storyboard */; };
+		0B5138C91F153A1600064D7D /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5138C81F153A1600064D7D /* Children.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B5138BC1F1539EF00064D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5138BF1F1539EF00064D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B5138C11F1539EF00064D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5138C71F153A1600064D7D /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Children.h; sourceTree = "<group>"; };
+		0B5138C81F153A1600064D7D /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Children.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				0B5138B31F1539EF00064D7D /* AppDelegate.h */,
 				0B5138B41F1539EF00064D7D /* AppDelegate.m */,
+				0B5138C71F153A1600064D7D /* Children.h */,
+				0B5138C81F153A1600064D7D /* Children.m */,
 				0B5138B61F1539EF00064D7D /* ViewController.h */,
 				0B5138B71F1539EF00064D7D /* ViewController.m */,
 				0B5138B91F1539EF00064D7D /* Main.storyboard */,
@@ -153,6 +158,7 @@
 			files = (
 				0B5138B81F1539EF00064D7D /* ViewController.m in Sources */,
 				0B5138B51F1539EF00064D7D /* AppDelegate.m in Sources */,
+				0B5138C91F153A1600064D7D /* Children.m in Sources */,
 				0B5138B21F1539EF00064D7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
